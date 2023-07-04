@@ -53,9 +53,9 @@ class DocumentInsertType
     public static function getAllowableEnumValues()
     {
         return [
-            self::ADVANCE
-            self::DRAFT
-            self::INVOICE
+            self::ADVANCE,
+            self::DRAFT,
+            self::INVOICE,
             self::PROFORMA
         ];
     }

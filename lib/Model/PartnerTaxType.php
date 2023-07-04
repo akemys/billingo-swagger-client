@@ -53,9 +53,9 @@ class PartnerTaxType
     public static function getAllowableEnumValues()
     {
         return [
-            self::EMPTY
-            self::FOREIGN
-            self::HAS_TAX_NUMBER
+            self::EMPTY,
+            self::FOREIGN,
+            self::HAS_TAX_NUMBER,
             self::NO_TAX_NUMBER
         ];
     }
